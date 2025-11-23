@@ -20,10 +20,6 @@ function LinearProgressWithLabel(props) {
 }
 
 LinearProgressWithLabel.propTypes = {
-  /**
-   * The value of the progress indicator for the determinate and buffer variants.
-   * Value between 0 and 100.
-   */
   value: PropTypes.number.isRequired,
 };
 
@@ -53,7 +49,7 @@ const Loading = ({ setIsLoading, setMessageContent }) => {
         clearInterval(intervalRef.current);
       }
     };
-  }, [setIsLoading]);
+  }, [setIsLoading, setMessageContent]);
 
   return (
     <Box sx={{ width: "100%" }}>
