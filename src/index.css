@@ -231,7 +231,7 @@ body {
 }
 
 /* Loading */
-.css-1txyin7-MuiLinearProgress-root{
+.MuiLinearProgress-root{
   background-color: var(--green1) !important;
   outline: none !important;
 }
