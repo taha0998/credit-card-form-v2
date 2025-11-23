@@ -235,6 +235,6 @@ body {
   background-color: var(--green1) !important;
   outline: none !important;
 }
-.css-l16vtb-MuiLinearProgress-bar1{
+.MuiLinearProgress-bar{
   background-color: var(--yellow) !important;
 }
